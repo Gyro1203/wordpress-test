@@ -1,0 +1,43 @@
+# ========================
+# Archivos de entorno
+# ========================
+.env
+.env.local
+*.env
+
+# ========================
+# WordPress core
+# ========================
+/wp-admin/
+/wp-includes/
+/wp-config.php
+
+# ========================
+# Archivos generados o cargados
+# ========================
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/backups/
+
+# ========================
+# Docker y Base de datos
+# ========================
+/db_data/
+/*.sql
+*.log
+
+# ========================
+# Sistema y Editor
+# ========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ========================
+# Node (si usas herramientas front)
+# ========================
+/node_modules/
+/dist/
+/build/
